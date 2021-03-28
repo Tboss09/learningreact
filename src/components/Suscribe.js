@@ -1,16 +1,13 @@
 function Welcome(props) {
   return (
-    <div className="Suscribe">
-      <h3>Suscribe</h3>
-      <p>Sign up with your email address</p>
-      <form className="signupForm">
-        <div className="inputField">
-          <input type="text" placeholder="Type name here" />
-          <input type="text" placeholder="Type Surname" />
-          <input type="email" placeholder="Type email here" />
-        </div>
-        <button>Submit</button>
-      </form>
+    <div className="container">
+      <div className="profile">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrCgytuIll5z6ptUQNtjqqV9wRTWBofMZR9A&usqp=CAU"
+            alt="A Man ith beards"
+          />
+        <p>ASA</p>
+      </div>
     </div>
   );
 }
