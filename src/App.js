@@ -1,11 +1,18 @@
 import "./style.scss";
+import React from "react";
 import "./styles.css";
 import Suscribe from "./components/Suscribe";
 
-export default function App() {
-  return (
-    <div className="App">
-      <Suscribe title="Hello World,I Just Created a class Component" />
-    </div>
-  );
+export default class App extends React.Component {
+
+  render() {  
+  const data = {
+    firstname:"Tayo AKosile",
+    button:"Click me"
+  }
+  
+    return(
+      <Suscribe data={data} title="I Just learnt react ckass methods"/>
+    )
+  }
 }
