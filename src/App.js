@@ -5,7 +5,7 @@ import Suscribe from "./components/Suscribe";
 export default function App() {
   return (
     <div className="App">
-      <Suscribe />
+      <Suscribe title="Hello World,I Just Created a class Component" />
     </div>
   );
 }
