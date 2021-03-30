@@ -4,12 +4,11 @@ class Suscribe extends React.Component {
     console.log("Clicked a button");
   };
   render() {
-    const { firstname, button } = this.props.data;
+    const { firstname} = this.props.data;
     return (
       <div>
         <h2>{this.props.title}</h2>;<p>{firstname}</p>
         <p>{firstname}</p>
-        <button onClick={this.greetPeople}>{button}</button>
       </div>
     );
   }
